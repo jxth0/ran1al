@@ -1,6 +1,9 @@
 from tkinter import *
-import ttkbootstrap as ttk
 from tkinter import messagebox
+import ttkbootstrap as ttk
+
+messageinfo=messagebox.showinfo('','1-Ali\n2-Fisal')
+print(messageinfo)
 
 class name:
     def __init__(self , name):
